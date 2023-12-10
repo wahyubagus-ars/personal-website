@@ -3,7 +3,7 @@
     <div class="container">
       <div class="flex flex-wrap">
         <div
-          class="w-full flex flex-col justify-end self-start mt-48 px-4 lg:w-1/3"
+          class="w-full flex flex-col justify-end self-start mt-32 px-4 lg:w-1/3"
         >
           <div class="text-end mb-8">
             <h3 class="font-silkscreen text-xl">software engineer</h3>
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="w-full self-end px-4 lg:w-2/3">
-          <div class="relative mt-10 lg:right-0 lg:mt-9">
+          <div class="relative mt-10 lg:right-0 lg:mt-0">
             <img
               src="./../assets/sonic-banner-image.png"
               alt="Sonic Image"
