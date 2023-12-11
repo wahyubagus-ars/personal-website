@@ -20,7 +20,7 @@ export default {
         dark: "#0f172a",
       },
       screens: {
-        "2xl": "1320px",
+        'lg2': "1320px",
       },
     },
   },

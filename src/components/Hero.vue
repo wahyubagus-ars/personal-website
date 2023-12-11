@@ -1,34 +1,32 @@
 <template>
   <section id="home" class="pt-22">
-    <div class="container">
-      <div class="flex flex-wrap">
+    <div class="container lg:max-w-1536 md:px-0">
+      <div class="flex max-w-full flex-wrap">
         <div
-          class="w-full flex flex-col justify-end self-start mt-32 px-4 lg:w-1/3"
+          class="flex flex-col justify-end self-start md:mt-16 lg:mt-24 xl:mt-44 px-4 w-1/3"
         >
           <div class="text-end mb-8">
-            <h3 class="font-silkscreen text-xl">software engineer</h3>
+            <h3 class="font-silkscreen lg:text-2xl md:text-lg hover:text-third">software engineer</h3>
           </div>
           <div class="text-right">
             <h1
-              class="font-bebasneue leading-none text-9xl font-bold text-primary"
+              class="font-bebasneue leading-none lg:text-9xl font-bold md:text-8xl text-primary"
             >
               WAHYU
             </h1>
             <h1
-              class="font-bebasneue leading-none text-9xl font-bold -mt-8 text-primary"
+              class="font-bebasneue leading-none lg:text-9xl font-bold md:text-8xl lg:-mt-8 md:-mt-4 text-primary"
             >
               BAGUS
             </h1>
           </div>
           <div class="flex justify-end mt-3">
             <div class="text-right flex flex-col justify-center">
-              <h3 class="leading-1 font-medium">A good software engineer</h3>
-              <h3 class="leading-none font-medium">
-                to craft quality products
-              </h3>
+              <h3 class=" font-medium lg:text-[16px] md:text-xs">A good software engineer</h3>
+              <h3 class=" font-medium lg:text-[16px] md:text-xs">to craft quality products</h3>
             </div>
-            <div class="w-1/6 flex items-center justify-end">
-              <img src="./../assets/star.png" alt="Star Logo" class="w-10 mt-0" />
+            <div class="ml-4 flex items-center justify-end">
+              <img src="./../assets/star.png" alt="Star Logo" class="lg:w-10 mt-0 md:w-7" />
             </div>
           </div>
           <div class="flex justify-end mt-8">
@@ -37,7 +35,7 @@
               class="relative px-5 py-3 rounded-lg text-white overflow-hidden transition-transform duration-300 ease-in-out bg-primary group"
             >
               <h2
-                class="font-silkscreen relative z-10 group-hover:text-primary"
+                class="font-silkscreen relative z-10 group-hover:text-primary md:text-sm lg:text-lg"
               >
                 DOWNLOAD MY CV
               </h2>
@@ -47,12 +45,12 @@
             </a>
           </div>
         </div>
-        <div class="w-full self-end px-4 lg:w-2/3">
-          <div class="relative mt-10 lg:right-0 lg:mt-0">
+        <div class="flex max-w-screen-lg self-end px-4 w-2/3">
+          <div class="relative lg:right-0">
             <img
               src="./../assets/sonic-banner-image.png"
               alt="Sonic Image"
-              class="relative z-10 mx-auto max-w-full"
+              class="relative z-10 mx-auto 2xl:max-w-[85%]"
             />
           </div>
         </div>
