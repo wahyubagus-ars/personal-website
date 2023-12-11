@@ -3,7 +3,7 @@
     <div class="container lg:max-w-1536 md:px-0">
       <div class="flex max-w-full flex-wrap">
         <div
-          class="flex flex-col justify-end self-start md:mt-16 lg:mt-24 xl:mt-44 px-4 w-1/3"
+          class="flex flex-col justify-end self-start md:mt-16 lg:mt-24 xl:mt-28 px-4 w-1/3"
         >
           <div class="text-end mb-8">
             <h3 class="font-silkscreen lg:text-2xl md:text-lg hover:text-third">software engineer</h3>
@@ -50,7 +50,7 @@
             <img
               src="./../assets/sonic-banner-image.png"
               alt="Sonic Image"
-              class="relative z-10 mx-auto 2xl:max-w-[85%]"
+              class="relative z-10 mx-auto md:max-w-[100%] xl:max-w-[85%] 2xl:max-w-[85%]"
             />
           </div>
         </div>
