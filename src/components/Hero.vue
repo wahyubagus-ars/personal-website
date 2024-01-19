@@ -50,7 +50,7 @@
             <img
               src="./../assets/sonic-banner-image.png"
               alt="Sonic Image"
-              class="relative z-10 mx-auto md:max-w-[100%] xl:max-w-[85%] 2xl:max-w-[85%]"
+              class="relative mx-auto md:max-w-[100%] xl:max-w-[85%] 2xl:max-w-[85%]"
             />
           </div>
         </div>

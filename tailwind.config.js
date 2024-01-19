@@ -1,11 +1,19 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      xs: "320px",
+      ...defaultTheme.screens,
+    },
     container: {
       center: true,
       padding: "52px",
     },
+
     extend: {
       fontFamily: {
         oswald: ["Oswald"],
@@ -20,7 +28,7 @@ export default {
         dark: "#0f172a",
       },
       screens: {
-        'lg2': "1320px",
+        lg2: "1320px",
       },
     },
   },
